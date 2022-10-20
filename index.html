@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>CSS_TEST</title> 
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+   </script> 
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li class="git">
+          <a href="https://github.com/" target="_blank">
+            <img src="img/git.png"
+          /></a>
+        </li>
+        <li class="tstory">
+          <a
+            href="https://how-to-train-your-skills.tistory.com/"
+            target="_blank"
+            ><img src="img/tstory_.png"
+          /></a>
+        </li>
+        <li class="sang">
+          <a href="https://opentutorials.org/course/1" target="_blank"
+            ><img src="img/sang.png"
+          /></a>
+        </li>
+        <li class="nomad">
+          <a href="https://nomadcoders.co/" target="_blank"
+            ><img src="img/nomad_.jpg"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <h1 id="date">----.--.--.mon</h1>
+    <h2 id="clock">00:00:00</h2>
+    <form id="login-form">
+      <input
+        class="input"
+        required
+        maxlength="10"
+        type="text"
+        placeholder="What is Your Name?"
+      />
+    </form>
+    <div class="greetingCon">
+      <span class="hidden" id="greeting"></span>
+      <span class="hidden" id="reset">X</span>
+    </div>
+    <div id="location">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
