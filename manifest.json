@@ -9,8 +9,12 @@
   "short_name": "chrome",
   "start_url": "/",
   "theme_color": "#ffffff",
-  "categories": [],
-  "screenshots": ["screenshotTest.png"],
-  "icons": [],
+  "categories": [
+    "lifestyle"
+  ],
+  "screenshots": [
+    "screenshotTest.png"
+  ],
+  "icons": ["maskable_icon_x512.png"],
   "shortcuts": []
 }
