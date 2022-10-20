@@ -15,6 +15,6 @@
   "screenshots": [
     "screenshotTest.png"
   ],
-  "icons": ["maskable_icon_x512.png"],
+  "icons": ["maskable_icon_x384.png"],
   "shortcuts": []
 }
