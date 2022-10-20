@@ -16,7 +16,10 @@
     "screenshotTest.png"
   ],
   "icons": [
-    "maskable_icon_x512.png"
+    {
+      "src": "images/ios/512.png",
+      "sizes": "512x512"
+    }
   ],
   "shortcuts": []
 }
